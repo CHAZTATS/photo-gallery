@@ -29,7 +29,16 @@
     "@ionic/pwa-elements": "^3.0.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.3"
+    "zone.js": "~0.10.3",
+    "@ngrx/data": "^9.2.0",
+    "@ngrx/effects": "^9.2.0",
+    "@ngrx/entity": "^9.2.0",
+    "@ngrx/router-store": "^9.2.0",
+    "@ngrx/store": "^9.2.0",
+    "@ngrx/store-devtools": "^9.2.0",
+    "@ngx-formly/core": "^5.9.3",
+    "@ngx-formly/material": "^5.9.3",
+    "@ngx-formly/schematics": "^5.9.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.0",

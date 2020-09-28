@@ -1,0 +1,97 @@
+:host {
+  display: table-cell;
+  vertical-align: middle;
+  background: #313131;
+  background: radial-gradient(#40404b, #111118) rgba(34, 34, 40, 0.94);
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  .login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    margin-top: calc(50vh - 242px);
+
+    box-sizing: border-box;
+
+    &__inner {
+      background-color: #fff;
+      color: #313131;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      min-height: 475px;
+      padding: 44px;
+      text-align: center;
+      border-radius: 5px;
+
+      .tenant {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .error {
+        font-weight: bold;
+        color: red;
+        font-size: 12px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #868686;
+      }
+
+      .logo {
+        text-decoration: overline;
+        font-size: 44px;
+        cursor: default;
+        user-select: none;
+      }
+
+      &__button {
+        background-color: #668f66;
+        color: #fafbfa;
+        font-size: 15px;
+        padding: 1px 18px;
+        margin-bottom: 14px;
+
+        &[disabled] {
+          opacity: 0.5;
+        }
+
+        img {
+          height: 30px;
+          padding-right: 9px;
+          position: relative;
+          top: -1.5px;
+          left: -6px;
+          border-right: 1px solid #e1e8e1;
+          width: 30px;
+        }
+      }
+    }
+
+    .terms {
+      margin-top: 15px;
+      font-size: 12px;
+      display: flex;
+      // text-align: left;
+      padding: 0 18px;
+      padding: 0px 12px;
+      align-items: center;
+      font-style: italic;
+      color: #757575;
+    }
+
+    .copy,
+    .legal {
+      color: #868686;
+      font-size: 12px;
+      padding: 6px;
+    }
+
+    .legal {
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<div class="login">
+  <div class="login__inner">
+    <h1 class="logo">statement</h1>
+    <hr>
+    <h4 class="tenant">{{tenant}}</h4>
+    <h4 class="error" *ngIf="error">You are not Authorised to use this Application</h4>
+    <h2>Sign In</h2>
+    <p>Please use you Scryer account to log in to Statement {{tenant}}.</p>
+    <br>
+    <button class="login__inner__button" mat-flat-button color="primary" (click)="login()">
+      <img _ngcontent-c16="" alt="scryer" height="40px" src="../../../../../assets/scryer-logo.png"> Sign in with Scryer
+    </button>
+    <div class="terms">
+      <span>By clicking Sign In with Scryer, you agree to our Terms and have read and acknowledge our Privacy
+        Statement.</span>
+    </div>
+  </div>
+  <span class="copy">&copy;Scryer Limited</span>
+  <span class="legal">Terms | Privacy</span>

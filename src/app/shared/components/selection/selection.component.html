@@ -1,0 +1,6 @@
+<ion-list>
+    <ion-item (click)="selectionClick(item)" *ngFor="let item of items">
+        <ion-label>{{item.label}}</ion-label>
+        <ion-note *ngIf="!!item.rightLabel" slot="end">{{item.rightLabel}}</ion-note>
+    </ion-item>
+</ion-list>
